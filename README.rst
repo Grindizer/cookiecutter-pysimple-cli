@@ -2,10 +2,10 @@
 cookiecutter-pysimple-cli
 =========================
 
-Cookiecutter template for a a simple python command line
+Cookiecutter template for a simple python command line
 interface application.
 It is mainly helpful to turn those one file python code into a
-useful python package that expose a basic command line interface (making others want to use your application !)
+useful python package that expose a basic command line interface (make others want to use your super app !!)
 
 Out of the box you would get:
 
