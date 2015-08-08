@@ -14,7 +14,7 @@ Out of the box you would get:
 * Click_ for command line interface.
 
 Usage & Workflow
-----------------
+-----------------
 
 1. Generate a Python package::
 
@@ -25,13 +25,14 @@ Usage & Workflow
 most important being the name you would like to give to you application/project.
 
 3. At this stage you get a working python application.
-that can be installed through ::
+that can be installed through::
 
     cd <your new generated project>
     git init .
     pip install -e .
 
-or
+or::
+
     cd <your new generated project>
     git init .
     python setup.py install
@@ -45,14 +46,15 @@ Because of the integration with pbr, you can create a new versions on your code
 by creating a git tag:
 
 ex::
+
     git tag -a 0.1.0
     git push --tags
 
-Your new created version of your command line can then be installed by:
+Your new created version of your command line can then be installed by::
 
     pip install git+<github repo>@0.1.0#egg=<package name>
 
-Example:
+Example
 --------
 Want to see what the generated project looks like? https://github.com/Grindizer/pyboilerplate
 
