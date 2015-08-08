@@ -1,0 +1,9 @@
+{
+	"full_name": "Nassim Babaci",
+	"email": "nassim.babaci@cloudreach.co.uk",
+    "package_name": "boilerplate",
+	"github_username": "Grindizer",
+	"repo_name": "pyboilerplate",
+	"project_short_description": "a app simple way to package and distribute python code.",
+	"version": "0.0.1"
+}
