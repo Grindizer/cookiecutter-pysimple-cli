@@ -16,14 +16,15 @@ Out of the box you would get:
 Usage & Workflow
 ----------------
 
-* Generate a Python package::
+1. Generate a Python package::
 
     cookiecutter thisrepo
 
-* Answer a couple of template questions:
- most important being the name you would like to give to to you application/project.
+2. Answer a couple of template questions::
 
-* At this stage you get a working python application.
+most important being the name you would like to give to to you application/project.
+
+3. At this stage you get a working python application.
 that can be installed through ::
 
     cd <your new generated project>
@@ -35,11 +36,10 @@ or
     git init .
     python setup.py install
 
-The main function of your application is callable at::
+4. The main function of your application is callable at::
 
     <package_name>_cli
 
-Want to see what the generated project looks like? https://github.com/Grindizer/pyboilerplate
 
 Because of the integration with pbr, you can create new versions on your code
 by creating a git tag:
@@ -51,6 +51,10 @@ ex:
 Your new created version of your command line can then be installed by:
 
     pip install git+<github repo>@0.1.0#egg=<package name>
+
+Example:
+--------
+Want to see what the generated project looks like? https://github.com/Grindizer/pyboilerplate
 
 .. _Pytest: http://pytest.org/
 .. _Click:
