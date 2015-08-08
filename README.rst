@@ -22,7 +22,7 @@ Usage & Workflow
 
 2. Answer a couple of template questions::
 
-most important being the name you would like to give to to you application/project.
+most important being the name you would like to give to you application/project.
 
 3. At this stage you get a working python application.
 that can be installed through ::
@@ -41,10 +41,10 @@ or
     <package_name>_cli
 
 
-Because of the integration with pbr, you can create new versions on your code
+Because of the integration with pbr, you can create a new versions on your code
 by creating a git tag:
 
-ex:
+ex::
     git tag -a 0.1.0
     git push --tags
 
