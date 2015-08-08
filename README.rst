@@ -20,9 +20,7 @@ Usage & Workflow
 
     cookiecutter thisrepo
 
-2. Answer a couple of template questions::
-
-most important being the name you would like to give to you application/project.
+2. Answer a couple of template questions (most important being the name you would like to give to you application/project).
 
 3. At this stage you get a working python application.
 that can be installed through::
